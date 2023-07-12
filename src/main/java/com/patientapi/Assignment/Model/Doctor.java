@@ -17,6 +17,6 @@ public class Doctor {
     @GeneratedValue
     private String id;
     private String department;
-    @OneToMany
+    @OneToMany(mappedBy = "doctor")
     private List<Patient> patients;
 }

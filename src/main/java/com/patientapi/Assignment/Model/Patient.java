@@ -18,7 +18,7 @@ public class Patient {
     private String firstName;
     private String lastName;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "doctor_id")
     private Doctor doctor;
 
