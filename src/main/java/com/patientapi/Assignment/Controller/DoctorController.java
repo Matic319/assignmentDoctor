@@ -5,7 +5,6 @@ import com.patientapi.Assignment.Model.Doctor;
 import com.patientapi.Assignment.Service.DoctorService;
 import org.springframework.web.bind.annotation.*;
 
-import javax.print.Doc;
 import java.util.List;
 import java.util.Optional;
 

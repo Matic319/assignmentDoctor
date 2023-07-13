@@ -15,8 +15,8 @@ import java.util.List;
 public class Patient {
     @Id
     private String id;
-    private String firstName;
-    private String lastName;
+    private String first_name;
+    private String last_name;
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "doctor_id")
