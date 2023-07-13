@@ -27,6 +27,6 @@ public class Patient {
             joinColumns = @JoinColumn(name="patient_id"),
             inverseJoinColumns = @JoinColumn(name = "disease_id")
     )
-    private List<Disease> diseases; // prever še enkrat !!
+    private List<Disease> diseases;
 
 }

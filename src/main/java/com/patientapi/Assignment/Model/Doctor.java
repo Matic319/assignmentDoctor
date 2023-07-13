@@ -15,7 +15,7 @@ import java.util.List;
 public class Doctor {
     @Id
     @GeneratedValue
-    private String id;
+    private Long id;
     private String department;
     @OneToMany(mappedBy = "doctor")
     private List<Patient> patients;
